@@ -21,7 +21,6 @@ body {
 /*NAVBAR*/
 .navbar {
     width: 100%;
-    padding: 20px 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -184,7 +183,7 @@ body {
 
 main {
     background-color: var(--bgc-main);
-    padding: 80px;
+    padding: 12px;
     display: flex;
     border: 5px var(--bgc-main);
     margin: auto;
@@ -193,12 +192,12 @@ main {
 }
 
 .hero-imag {
-    max-width: 600px;
+    max-width: 415px;
     height: auto;
 }
 
 .content-left {
-    padding: 60px;
+    padding: 47px;
     flex-direction: column;
     text-align: center;
 }
@@ -217,7 +216,6 @@ main h2 {
 main p {
     font-size: 25px;
     color: #FFB703;
-    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 8px;
 }
@@ -269,7 +267,7 @@ main p {
 .form-search-submit {
     display: inline-block;
     width: 55px;
-    height: 43px;
+    height: 2px;
     border: 0;
     outline: 0;
     font-size: 21px;

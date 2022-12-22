@@ -21,7 +21,6 @@ body {
 /*NAVBAR*/
 .navbar {
     width: 100%;
-    padding: 20px 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -199,7 +198,7 @@ body {
 .form-search-submit {
     display: inline-block;
     width: 55px;
-    height: 43px;
+    height: 2px;
     border: 0;
     outline: 0;
     font-size: 21px;
@@ -288,7 +287,6 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     align-items: center;
     gap: 2.5rem;
-    background-color: #8ECAE6;
 }
 
 .banner-img {
@@ -302,7 +300,6 @@ body {
     -webkit-transition: 1s linear;
     transition: 1s linear;
     cursor: pointer;
-    margin: 50px;
 }
 
 .banner-img:hover img {
