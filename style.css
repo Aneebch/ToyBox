@@ -192,8 +192,10 @@ main {
 }
 
 .hero-imag {
+    width: 100%;
     max-width: 415px;
     height: auto;
+
 }
 
 .content-left {
@@ -203,7 +205,8 @@ main {
 }
 
 .content-right {
-    width: 30%;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 main h2 {
@@ -327,4 +330,13 @@ footer {
 
 .icons a:hover {
     color: rgb(231, 156, 17);
+}
+
+#container-e{
+    color: #999;
+    padding: 10px 0;
+    text-align: center;
+    line-height: normal;
+    margin: 0;
+    font-size: .9em;
 }
